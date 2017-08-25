@@ -1,1 +1,22 @@
-Hola, todos!
+.description
+  %p How many paragraphs?
+  %ul
+    %li
+      = link_to "one", "javascript:void(0)", data: { number: 1}, class: "paragraph-link"
+      \|
+    %li
+      = link_to "two", "javascript:void(0)", data: { number: 2}, class: "paragraph-link"
+      \|
+    %li
+      = link_to "three", "javascript:void(0)", data: { number: 3}, class: "paragraph-link"
+      \|
+    %li
+      = link_to "four", "javascript:void(0)", data: { number: 4}, class: "paragraph-link"
+      \|
+    %li= link_to "five", "javascript:void(0)", data: { number: 5}, class: "paragraph-link"
+
+.text-container= render partial: "text", locals: { paragraphs: @paragraphs }
+
+
+:javascript
+  new ShondaIpsum.IndexPage();

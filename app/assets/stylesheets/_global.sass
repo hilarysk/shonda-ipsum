@@ -1,0 +1,45 @@
+html
+  +box-sizing(border-box)
+  *
+    +box-sizing(inherit)
+
+html, body
+  color: $dark-mauve
+  background-color: $cream
+  font-family: $font-main
+  font-size: 18px
+  font-weight: 800
+  line-height: 1.4
+  a:link, a:visited
+    color: $dark-mauve
+  a:hover
+    color: $mauve
+
+main
+  clear: both
+  margin: 0 auto
+  max-width: 750px
+  padding: 25px 15px 15px
+  width: 100%
+
+h1
+  font-size: 85px
+  font-weight: 800
+  text-transform: uppercase
+
+p
+  margin: auto 0 20px
+
+ul
+  +clearfix
+  margin: auto 0 20px 25px
+  list-style-type: none
+  li
+    float: left
+    margin: 0 7px
+
+strong
+  font-weight: 800
+
+em
+  font-style: italic
