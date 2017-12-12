@@ -29,3 +29,7 @@ There are three key ways to contribute to Shonda Ipsum.
 - Reduce duplication
 - Upgrade gems for security / functionality
 - Etc. 
+
+### Wish list / To-do list
+- Convert `phrases` in `home_controller.rb` to `yml` file (or something similar - basically separate it out from the code)
+- Improve accessibility
