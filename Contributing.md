@@ -1,7 +1,14 @@
 # Shonda Ipsum Contributor Guidelines
 Thanks for your interest in contributing to Shonda Ipsum!
 
-## How can I help?
+## I've never contributed to an open source project before. How do I get started?
+
+How exciting! We would legit be _honored_ to be your first open source project. Here are some great tutorials to help you get started.
+
+- http://makeapullrequest.com/
+- http://www.firsttimersonly.com/
+
+## OK, I'm ready to get started. How can I help?
 
 There are three key ways to contribute to Shonda Ipsum. 
 
