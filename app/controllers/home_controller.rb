@@ -45,7 +45,11 @@ class HomeController < ApplicationController
       "I am many things; stupid is not one of them.",
       "It's handled.",
       "I'm not deranged; I'm just divorced.",
-      "Whatever happens, we do not give up. It is my name on that door, and I do not give up."
+      "Whatever happens, we do not give up. It is my name on that door, and I do not give up.",
+      "Don’t let what he wants eclipse what you need. He's very dreamy, but he's not the sun. You are.",
+      "Failure is inevitable, Unavoidable. But failure should never get the last word.",
+      "You have to hold on to what you want. You have to not take \"No\' for an answer, and take what’s coming to you.",
+      "Never give in. Never give up. Stand up. Stand up and take it."
     ]
   end
 end
